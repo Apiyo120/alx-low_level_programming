@@ -1,8 +1,8 @@
 #include	<stdio.h>
 /**
- * main	-	write	the	line	of	the	code
+ * main	-	write	the	line	of	code
  *
- * Return:	always	0
+ * Return:	always	0	(Success)
 */
 int	main(void)
 {
