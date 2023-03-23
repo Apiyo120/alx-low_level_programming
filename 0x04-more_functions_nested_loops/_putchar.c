@@ -1,8 +1,7 @@
-#include "main.h"
 #include <unistd.h>
 
 /**
- * _putchar	-	-writes character c to stand out
+ * _putchar	-	-writes character c to std out
  * @c: the character to print
  *
  * Return: On success 1.
