@@ -14,11 +14,11 @@ int _sqrt_recursion(int n)
 
 	return (-1);
 
-	return (_sqrt_recursion(n, 0));
+	return (actual_sqrt_recursion(n, 0));
 }
 
 /**
- * atual_sqrt_recursiion - recurses to find
+ * actual_sqrt_recursiion - recurses to find
  * the actual square root of a number
  * @n: input.
  * @r: iterator.
