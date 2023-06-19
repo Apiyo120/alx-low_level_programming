@@ -10,17 +10,13 @@
 
 size_t print_dlistint(const dlistint_t *h)
 {
-	size_t p = 0;
+	size_t count = 0;
 
-	while (h)
+	while (h != NULL)
 	{
-		if	(!h->data)
-			printf("[0] (mil)\n");
-		else
-			printf("[%u] %p\n", h->len, h->data);
+		printf("%d\n", h->n);
 		h = h->next;
-		p++;
+		count++;
 	}
-
-	return (p);
+	return (count);
 }
